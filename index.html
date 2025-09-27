@@ -1,16 +1,11 @@
-
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
+    <title>Profil Ferrer Nafier</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-</head>
-<style >
-     body {
+    <style>
+        body {
             font-family: Arial, sans-serif;
             background-color: #ffffff;
             color: #000000;
@@ -19,38 +14,42 @@
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            padding: 20px 0; 
+            padding: 20px;
         }
         .container {
             text-align: center;
             background-color: #ffffff;
-            padding: 100px;
+            padding: 40px;
             width: 100%;
-            max-width: 1000px;
-            transition: all 0.3s ease; 
+            max-width: 800px;
         }
         .profile-picture-container {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 3px solid #fff;
+            border: 3px solid #ddd;
             overflow: hidden;
             margin: 0 auto 20px auto;
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: all 0.3s ease;
         }
         .profile-picture {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        .info p {
-            margin: 5px 0 25px 0;
-            font-size: 1em;
-            color: #666;
-            line-height: 1.5;
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        h3 {
+            margin-top: 5px;
+            font-weight: normal;
+            color: #555;
+        }
+        .social-links {
+            margin: 25px 0;
         }
         .social-links a {
             margin: 0 10px;
@@ -59,9 +58,17 @@
         .social-links img {
             width: 32px;
             height: 32px;
-            transition: all 0.3s ease;
+            transition: transform 0.2s ease;
         }
-
+        .social-links img:hover {
+            transform: scale(1.1);
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eee;
+            margin-top: 30px;
+        }
         @media (max-width: 600px) {
             .container {
                 padding: 25px;
@@ -70,52 +77,36 @@
                 width: 120px;
                 height: 120px;
             }
-            .info p {
-                font-size: 0.9em;
-            }
             .social-links img {
                 width: 28px;
                 height: 28px;
             }
         }
     </style>
+</head>
 
 <body>
-    <br>
-    <br>
-
-    <div align="center">
+    <div class="container">
         <div class="profile-picture-container">
-            <img src="_MG_8746 copy.jpg"  width="150">
+            <img src="_MG_8746 copy.jpg" class="profile-picture" alt="Foto Profil Ferrer Nafier">
         </div>
         
-        <br><br>
-
         <h1>Ferrer Nafier</h1>
         <h3>102022400008 / Fakultas Rekayasa Industri / S1 Sistem Informasi</h3>
 
-        <br>
         <div class="social-links">
             <a href="https://www.linkedin.com/in/ferrer-nafier-016bbb364/" target="_blank">
                 <img src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="Linkedin Icon">
             </a>
             <a href="https://github.com/FerrerN" target="_blank">
-                <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" alt="Github Icon">
+                <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" alt="Github Icon" style="filter: invert(1);">
             </a>
             <a href="https://www.instagram.com/nafierferrer/" target="_blank">
                 <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/instagram.svg" alt="Instagram Icon">
             </a>
-        </div>
-
+        </div>
+        
         <hr>
-
-        
-        
-
     </div>
-
 </body>
-
 </html>
-
-
